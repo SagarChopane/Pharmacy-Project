@@ -42,7 +42,7 @@ Users can search, sort, filter by brand or category, adjust price range, and add
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/medicine-shop.git
+   git clone https://github.com/yourusername/Pharmacy-Project.git
    cd medicine-shop
 =======
 # Pharmacy-Project
