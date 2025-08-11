@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 💊 Online Medicine Shop
 
 A modern and responsive **React + Vite** application for browsing medicines, filtering products, and managing a shopping cart.  
@@ -43,3 +44,6 @@ Users can search, sort, filter by brand or category, adjust price range, and add
    ```bash
    git clone https://github.com/yourusername/medicine-shop.git
    cd medicine-shop
+=======
+# Pharmacy-Project
+>>>>>>> 383e455b07ab37650d282e4a6864c5b573244623
