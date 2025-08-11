@@ -1,0 +1,30 @@
+:root {
+--bg: #0e1116;
+--bg-soft: #151a22;
+--text: #e8eaed;
+--muted: #a8b3c1;
+--primary: #4cc9f0;
+--accent: #80ed99;
+--danger: #ff6b6b;
+--warning: #ffd166;
+--card: #121722;
+--border: #2a3240;
+
+--shadow: 0 8px 24px rgba(0,0,0,0.25);
+}
+
+@media (prefers-color-scheme: light) {
+:root {
+--bg: #ffffff;
+--bg-soft: #f7f8fa;
+--text: #1f2937;
+--muted: #6b7280;
+--primary: #2563eb;
+--accent: #059669;
+--danger: #dc2626;
+--warning: #d97706;
+--card: #ffffff;
+--border: #e5e7eb;
+--shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+}

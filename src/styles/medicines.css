@@ -1,0 +1,95 @@
+/* Fixed Filters Sidebar */
+.filters {
+  position: sticky;
+  top: 72px; /* adjust to your navbar height */
+  align-self: start;
+  background: var(--bg);
+  padding: 16px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Form elements inside filters */
+.filters label {
+  font-weight: 600;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+.filters input,
+.filters select,
+.filters button {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.filters input[type="checkbox"] {
+  width: auto;
+  margin-right: 8px;
+}
+
+.filters .slider {
+  width: 100%;
+}
+
+/* Push the product grid so it doesn't go under the fixed sidebar */
+.grid-container {
+  margin-left: 266px; /* sidebar width + small gap */
+  padding: 16px;
+}
+
+/* Medicine Card */
+.medicard {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 12px;
+  background: var(--bg-soft);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.medicard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.medicard img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+  background: var(--bg);
+}
+
+.medicard .title {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.medicard .brand {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.medicard .price {
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.stock.in {
+  color: var(--accent);
+  font-size: 13px;
+}
+
+.stock.out {
+  color: var(--danger);
+  font-size: 13px;
+}

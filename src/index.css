@@ -1,0 +1,9 @@
+/* Keep minimal, import variables/global separately */
+html,
+body,
+#root {
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+}
